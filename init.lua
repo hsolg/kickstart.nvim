@@ -45,6 +45,8 @@ vim.opt.expandtab = true
 
 vim.opt.wrap = false
 
+vim.opt.scrolloff = 3
+
 -- Set <space> as the leader key
 -- See `:help mapleader`
 --  NOTE: Must happen before plugins are required (otherwise wrong leader will be used)
